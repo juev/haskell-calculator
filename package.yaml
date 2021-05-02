@@ -1,0 +1,21 @@
+name:                haskell-calculator
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/juev/haskell-calculator#readme
+license:             BSD3
+author:              Denis Evsyukov
+maintainer:          denis@evsyukov.org
+copyright:           2021 Denis Evsyukov
+category:            Development
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - optparse-applicative >= 0.16.0.0
+
+executables:
+  haskell-calculator:
+    source-dirs:      src
+    main:             Main.hs
